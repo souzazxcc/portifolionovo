@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-de-fundo: #292931;
+    --cor-de-destaque: #BE8600;
+    --texto-claro: #D9D9D9;
+    --texto-medio: #C7C7C7;
+}
+
+* {
+    text-decoration: none;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+    overflow-x: hidden;
+}
+
+#meunome   {
+    display: flex;
+    width: 500px;
+    height: 164px;
+    color: var(--texto-claro);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+#headerhr  {
+    display: flex;
+    width: 350px;
+    height: 2px;
+    background-color: var(--cor-de-destaque);
+    border: none;
+    margin-left: 3rem;
+    margin-top: -5rem;
+}
+
+#estudantelin {
+    display: flex;
+    width: 533px;
+    height: 133px;
+    flex-shrink: 0;
+    color: var(--texto-medio);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 109px;
+    height: 36px;
+    flex-shrink: 0;
+    color: var(--texto-medio);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 1.5rem;
+    margin-left: 0.6rem;
+    margin-top: -1rem;
+}
+
+ul a {
+    display: flex;
+    text-decoration: none;
+    color: var(--texto-medio);
+}
+
+#hrprin {
+    display: flex;
+    width: 175px;
+    height: 2px;
+    background: #BE8600;
+    border: none;
+    margin-left: 3rem;
+    margin-top: -0.8rem;
+}
+
+#sobremim {
+    display: flex;
+    width: 700px;
+    height: 249px;
+    flex-shrink: 0;
+    color: var(--Texto-claro, #D9D9D9);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2.6rem;
+}
+
+#entremcnt {
+    display: flex;
+    width: 220px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: var(--cor-de-destaque);
+    color: var(--texto-claro);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+#souza  {
+    display: flex;
+    height: 30rem;
+    border-radius: 300px;
+    margin-left: 70rem;
+    margin-top: -25rem;
+}
+
+#body2 {
+    width: 1920px;
+    height: 1000px;
+    flex-shrink: 0;
+    background-color: #323338;
+    margin-top: 5rem;
+    margin-left: -1rem;
+}
+
+#mim {
+    display: flex;
+    color: var(--Texto-claro, #D9D9D9);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 7rem;
+   justify-content: center;
+}
+
+#sobre {
+    display: flex;
+    color: var(--texto-medio);
+    font-family: Poppins;
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+    margin-left: 45rem;
+}
+
+.box {
+    display: flex;
+    padding-top: 15px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 20px;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+h4  {
+    display: flex;
+    width: 442px;
+    height: 173px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pessoa2 {
+   height: 1rem;
+}
+
+.fundo {
+    background: #262626;
+}
+
+#parte1 {
+    display: flex;
+}
+
+#parte2 {
+    display: flex;
+    height: 15.7rem;
+}
+
+#parte3 {
+    display: flex;
+    height: 15.7rem;
+}
+
+::-webkit-scrollbar  {
+    background-color: var(--cor-de-fundo);
+}
+
+::-webkit-scrollbar-thumb  {
+    background-color: var(--cor-de-destaque);
+}
+
+@media screen and ( min-width: 1920px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #sobremim {
+        display: flex;
+        width: 650px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 50rem;
+        margin-top: -20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -35rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 27rem;
+    }
+    #parte1 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -40rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -4rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -40rem;
+        margin-top: 40rem;
+    }
+}
+@media screen and ( min-width: 1024px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #sobremim {
+        display: flex;
+        width: 650px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 50rem;
+        margin-top: -20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -35rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 27rem;
+    }
+    #parte1 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -40rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -4rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -40rem;
+        margin-top: 40rem;
+    }
+}
+
+@media screen and ( min-width: 1440px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #sobremim {
+        display: flex;
+        width: 650px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 50rem;
+        margin-top: -20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -35rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 27rem;
+    }
+    #parte1 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -40rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -4rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -40rem;
+        margin-top: 40rem;
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #sobremim {
+        display: flex;
+        width: 650px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 50rem;
+        margin-top: -20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -35rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 27rem;
+    }
+    #parte1 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -40rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -4rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -40rem;
+        margin-top: 40rem;
+    }
+}
+
+@media screen and ( min-width: 390px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #sobremim {
+        display: flex;
+        width: 650px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 45rem;
+        margin-top: -20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -52rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 18.5rem;
+    }
+    #parte1 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -40rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -4rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -52rem;
+        margin-top: 40rem;
+    }
+}
+
+@media screen and ( min-width: 280px ) {
+    #meunome {
+        display: flex;
+        width: 500px;
+        height: 164px;
+        color: var(--texto-claro);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #headerhr  {
+        display: flex;
+        width: 350px;
+        height: 2px;
+        background-color: var(--cor-de-destaque);
+        border: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    #estudantelin {
+        display: flex;
+        width: 533px;
+        height: 133px;
+        flex-shrink: 0;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: -4rem;
+        margin-top: -1.5rem;
+    }
+    ul {
+        margin-top: -2rem;
+    }
+    #entremcnt {
+        margin-top: 5rem;
+    }
+    #sobremim {
+        display: flex;
+        width:  500px;
+        height: 249px;
+        flex-shrink: 0;
+        color: var(--Texto-claro, #D9D9D9);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.6rem;
+    }
+    #souza  {
+        display: flex;
+        height: 20rem;
+        border-radius: 300px;
+        margin-left: 9rem;
+        margin-top: 20rem;
+    }
+    #mim {
+        display: flex;
+        color: var(--Texto-claro, #D9D9D9);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 7rem;
+       justify-content: center;
+       margin-left: -80.5rem;
+    }
+    #sobre {
+        display: flex;
+        color: var(--texto-medio);
+        font-family: Poppins;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+        margin-left: 4.5rem;
+    }
+    .box {
+        margin-top: -40rem;
+    }
+    #parte1 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -80rem;
+    }
+    #parte2 {
+        display: flex;
+        height: 15.7rem;
+        margin-left: -85rem;
+        margin-top: 80rem;
+    }
+    #parte3 {
+        display: flex;
+        position: absolute;
+        height: 15.7rem;
+        margin-left: -82rem;
+        margin-top: 40rem;
+    }
+}
